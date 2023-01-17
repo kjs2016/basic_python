@@ -7,3 +7,18 @@ str2 = str2[:idx] + "Python " + str2[idx:]
 print(str2)
 
 print(str2[2:-3])
+#format 함수()를 이용한 문자열 처리
+print("{:-^50}".format("사랑"))
+print("{:&<50}".format("사랑"))
+print("{:*>50}".format("사랑"))
+
+name = "홍길동"
+age = 45
+info = "성명:{0} | 나이:{1}".format(name, age) #format함수로 문자열을 조합하고 info변수에 대입
+print(info)#info변수의 문자열 값 콘솔 출력
+
+#format함수를 이용한 여러 행 문자열 처리
+multiline = '''여러행의 문자열
+우리나라는 {}이다.
+서기 {}년{}월{}일'''.format("대한민국",2018,4,15)
+print(multiline)
