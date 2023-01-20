@@ -42,8 +42,7 @@ print('16진수로 변환 =>',hex(Int))
 #"Hello python world"를 입력받아서 "Python" 대신 "happy"로 바꿔주는 프로그램을 구현하시오
 str3 = input("문자열 입력>> ")
 find = str(input("찾을 단어>> "))
-#change = input("바꿀 단어>> ")
+change = input("바꿀 단어>> ")
 
-idx2 = str3.index(len(find))
-str3 = str3[:idx] + "python" + str3[idx:]
-print(str3)
+idx = str3.index(find)
+print(str3[:idx] + change + str3[idx:])

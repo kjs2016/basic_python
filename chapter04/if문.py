@@ -1,3 +1,7 @@
+# if문 형식
+#if 조건식 :
+#   조건식이 참이면 실행
+
 money = True
 if money:
     print("택시를 탄다")
