@@ -1,6 +1,4 @@
-str3 = input("문자열 입력>> ")
-find = str(input("찾을 단어>> "))
-change = input("바꿀 단어>> ")
+score = int(input("성적 입력 : "))
+grade = "F"
 
-idx = str3.index(find)
-print(str3[:idx])
+print(score.isdigit())
