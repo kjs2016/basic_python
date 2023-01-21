@@ -45,6 +45,7 @@ if score.isalpha() == True:
    sys.exit()
 
 else:
+    score = int(score)
     if score >= 90:
         grade = 'A'
     elif score >= 80:
