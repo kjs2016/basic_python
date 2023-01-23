@@ -1,4 +1,4 @@
-import random
+import random#랜덤 임포트
 
 lotto = set()#set 자료 구조는 중복된 값을 허용하지 않는다.
 
