@@ -10,5 +10,5 @@ li4.remove(2)#맨 처음에 요소 하나만 제거
 print(li4)
 
 while 2 in li4:#li4안에 2가 있다면 반복, 반복할 때마다 remove()함수 요소 제거
-    li4.remove(2)플
+    li4.remove(2)
 print(li4)

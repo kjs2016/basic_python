@@ -1,5 +1,5 @@
-list = []
-list2 = []
+list = [] #빈리스트 선언
+list2 = [] #빈리스트 선언
 for i in range(10) :
     a = int(input("입력 >> "))
     if(a <= 0):
